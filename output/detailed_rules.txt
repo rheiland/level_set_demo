@@ -1,0 +1,5 @@
+Cell Hypothesis Rules (detailed)
+
+In default cells:
+pressure decreases cycle entry from 0.0166667 towards 0 with a Hill response, with half-max 2 and Hill power 4.
+

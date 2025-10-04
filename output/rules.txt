@@ -1,0 +1,5 @@
+Cell Hypothesis Rules
+
+In default cells:
+pressure decreases cycle entry
+
