@@ -1,5 +1,7 @@
 Cell Hypothesis Rules (detailed)
 
-In default cells:
-pressure decreases cycle entry from 0.0166667 towards 0 with a Hill response, with half-max 2 and Hill power 4.
+In epi cells:
+
+In ctype1 cells:
+contact with epi decreases migration speed from 0.3 towards 0 with a Hill response, with half-max 0.5 and Hill power 4.
 

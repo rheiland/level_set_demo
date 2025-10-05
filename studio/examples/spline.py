@@ -41,11 +41,13 @@ class MplWidget(QtWidgets.QWidget):
         print("self.bezpts=",self.bezpts)
         self.num_eval = 100  # for Bezier curve
 
-        self.plot_xmin = -500
-        self.plot_xmax = 500
-        self.plot_ymin = -500
-        self.plot_ymax = 500
+        self.plot_xmin = -400
+        self.plot_xmax = 400
+        self.plot_ymin = -400
+        self.plot_ymax = 400
 
+        # self.delta_radius = 2.0
+        self.delta_radius = 1.7
         self.xv = None  # xvalues of points along Bezier curve
         self.yv = None  # yvalues of points along Bezier curve
 
@@ -331,7 +333,8 @@ class MplWidget(QtWidgets.QWidget):
         # print("xvals=",xvals)
 
         i0 = 0
-        rx2 = 2.0 * self.cell_radius  # desired distance between cells
+        # rx2 = 2.0 * self.cell_radius  # desired distance between cells
+        rx2 = self.delta_radius * self.cell_radius  # desired distance between cells
         dist2_min = rx2 * rx2  # square of distance 
         # print(f"\n\n >>>>>>  r={self.cell_radius},  rx2={rx2}, dist2_min={dist2_min}")
         xnew = np.array([])
