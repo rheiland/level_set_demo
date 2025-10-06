@@ -17,6 +17,8 @@
 <img src=.\images\rule1_plot.png width="40%">
 
 ## Second attempt
+* renamed "epi" to "basal" cell type
+* added "luminal" - approximately aligning (offset) with "basal"
 
-<img src=.\images\basal_luminal_v0.png width="50%">
+<img src=.\images\basal_luminal_v0_t0.png width="40%"><img src=.\images\basal_luminal_v0.png width="40%">
 
