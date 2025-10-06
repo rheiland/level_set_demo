@@ -5,6 +5,8 @@
 * create 2 cells that simply chemotax to the top of the domain and, as they contact epi cells, form a spring attachment and drag them along
 * the "contact with" signal and "spring attachment" behavior is defined with a single rule
 
+## First attempt
+
 <img src=.\images\spline_tool.png width="30%">
 
 <img src=.\images\bm_dist.png width="50%">
@@ -13,4 +15,8 @@
 
 <img src=.\images\rule1_studio.png width="70%">
 <img src=.\images\rule1_plot.png width="40%">
+
+## Second attempt
+
+<img src=.\images\basal_luminal_v0.png width="50%">
 
