@@ -1,0 +1,4 @@
+//ctype1,contact with epi,decreases,migration speed,0,0.5,4,0
+//epi,contact with ctype1,increases,is_movable,2,0.5,4,0
+//ctype1,contact with epi,increases,chemotactic response to signal2,5,0.5,4,0
+ctype1,contact with epi,increases,cell attachment rate,0.01,0.5,4,0
