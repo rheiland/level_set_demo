@@ -20,5 +20,11 @@
 * renamed "epi" to "basal" cell type
 * added "luminal" - approximately aligning (offset) with "basal"
 
-<img src=.\images\basal_luminal_v0_t0.png width="40%"><img src=.\images\basal_luminal_v0.png width="40%">
+<img src=.\images\basal_luminal_v0_t0.png width="35%"><img src=.\images\basal_luminal_v0.png width="35%">
+
+## Next...
+* John: introduce a higher death rate for those cells that are not in contact with basal cells.
+* /user_projects/model8 (the black colored cells are those undergoing apoptosis)
+
+<img src=.\images\apoptose_unless_contact.png width="75%">
 
